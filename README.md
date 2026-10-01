@@ -56,7 +56,7 @@ Build and validate the actual executable with the Core-owned black-box runner:
 
 ```sh
 go build -o integrated-recorder-adapter-foo .
-go run github.com/dltkddnr04/integrated-recorder/cmd/adapter-conformance@latest --binary ./integrated-recorder-adapter-foo
+go run github.com/dltkddnr04/integrated-recorder/cmd/adapter-conformance@a245a06020f3017ab329c72a86c0e79133472643 --binary ./integrated-recorder-adapter-foo
 ```
 
 After it passes, install the binary in the Integrated Recorder `adapter-binaries` directory and restart Integrated Recorder so it discovers the executable:
